@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+/*-----------------------------------------------*/
+/*---------REUSABLE COMPONENTS-------------------*/
+/*-----------------------------------------------*/
+
+.center {
+    width: 1140px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.heading-h1 {
+    color: #e67e22;
+    font-size: 300%;
+    word-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+/*-----------------------------------------------*/
+/*----------------------HEADER-------------------*/
+/*-----------------------------------------------*/
+
+header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.beast-text-box {
+    position: absolute;
+    width: 1140px;
+    height: 200px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn-full:link,
+.btn-full:visited,
+.btn-ghost:link,
+.btn-ghost:visited {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    display: inline-block;
+    border: 2px solid #e67e22;
+    border-radius: 80px;
+    font-size: 120%;
+    padding: 10px;
+    font-weight: 200;
+    transition: .4s;
+
+}
+
+.btn-full:hover,
+.btn-full:active,
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #e67e22;
+}
+
+.main-navi {
+    background-color: rgba(160, 160, 160, 0.9);
+}
+
+
