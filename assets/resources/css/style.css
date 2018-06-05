@@ -19,15 +19,23 @@ body {
 /*---------REUSABLE COMPONENTS-------------------*/
 /*-----------------------------------------------*/
 
-.center {
-    width: 1140px;
-    height: 200px;
-    margin: 0 auto;
-    border: 1px solid red;
+section {
+    padding: 80px 0;
 }
+
+.long-copy {
+    line-height: 145%;
+    width: 75%;
+    margin-left: 15%;
+    text-align: justify;
+    font-size:100%;
+    font-weight: 200;
+}
+
 
 .heading-h1 {
     color: #e67e22;
+    /*color: #ec3642;*/
     font-size: 300%;
     word-spacing: 5px;
     margin-top: 0;
@@ -38,31 +46,66 @@ body {
 
 }
 
+.heading-h2 {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 180%;
+    margin-bottom: 30px;
+
+
+}
+
+.heading-h3 {
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+
+
+}
+
+.heading-h2::after {
+
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.icon-big {
+    font-size: 350%;
+    color: #e67e22;
+    display: inline-block;
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
+
 /*-----------------------------------------------*/
 /*----------------------HEADER-------------------*/
 /*-----------------------------------------------*/
-
-header {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
-}
-
 .beast-text-box {
     position: absolute;
     width: 1140px;
     height: 200px;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    display: none;
 }
 
 .btn-full:link,
-.btn-full:visited,
-.btn-ghost:link,
-.btn-ghost:visited {
+.btn-full:visited
+{
     text-decoration: none;
     color: white;
     margin-right: 10px;
@@ -77,14 +120,36 @@ header {
 }
 
 .btn-full:hover,
-.btn-full:active,
-.btn-ghost:hover,
-.btn-ghost:active {
+.btn-full:active {
     background-color: #e67e22;
 }
 
 .main-navi {
-    background-color: rgba(160, 160, 160, 0.9);
+    background-color: rgba(5, 0, 0, 0.77);
 }
+
+.nav-brand-custom {
+    color: #e67e22;
+    font-weight: 500;
+}
+
+.main-navi ul li a:link span,
+.main-navi ul li a:visited span {
+    color: rgb(221, 221, 221);
+    font-size: 80%;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+    padding: 8px 0;
+}
+
+.main-navi ul li a:hover span,
+.main-navi ul li a:active span {
+
+    border-bottom: 2px solid #e67e22;
+
+}
+
+
 
 
