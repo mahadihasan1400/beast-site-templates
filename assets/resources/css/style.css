@@ -1,3 +1,14 @@
+/*-----------------------------------------------*/
+/*---------Base color-------------------*/
+
+/*
+color: #e67e22;
+color: #ec3642;
+
+*/
+
+/*-----------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -28,10 +39,19 @@ section {
     width: 75%;
     margin-left: 15%;
     text-align: justify;
-    font-size:100%;
-    font-weight: 200;
+    font-size: 100%;
+    font-weight: 300;
 }
 
+.short-copy {
+
+    line-height: 145%;
+    font-size: 90%;
+    display: block;
+    text-align: justify;
+    font-weight: 300;
+
+}
 
 .heading-h1 {
     color: #e67e22;
@@ -55,17 +75,15 @@ section {
     font-size: 180%;
     margin-bottom: 30px;
 
-
 }
 
 .heading-h3 {
-    text-align: center;
+
     font-size: 110%;
     margin-bottom: 15px;
     font-weight: 300;
     text-transform: uppercase;
-
-
+    text-align: center;
 
 }
 
@@ -85,7 +103,7 @@ section {
     font-size: 350%;
     color: #e67e22;
     display: inline-block;
-    padding-left: 80px;
+    padding-left: 100px;
     margin-bottom: 10px;
 }
 
@@ -100,12 +118,11 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    display: none;
+    /*display: none;*/
 }
 
 .btn-full:link,
-.btn-full:visited
-{
+.btn-full:visited {
     text-decoration: none;
     color: white;
     margin-right: 10px;
@@ -150,6 +167,98 @@ section {
 
 }
 
+/*-----------------------------------------------*/
+/*----------------------FEATURES-------------------*/
+/*-----------------------------------------------*/
+
+.section-features {
+    background-color: #f4f4f4;
+}
+
+/*-----------------------------------------------*/
+/*----------------------CLASSES-------------------*/
+/*-----------------------------------------------*/
+
+.card-title-custom {
+    font-size: 110%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #e67e22;
+    text-align: center;
+}
+
+.instructor {
+    text-align: center;
+}
+
+.instructor .icon-person {
+    margin-right: 20px;
+    font-size: 100%;
+    color: #e67e22;
+    display: inline-block;
+
+}
+
+.instructor span {
+    vertical-align: 1px;
+    font-size: 80%;
+}
+
+.list-of-social-icons {
+    text-align: center;
+}
+
+.list-of-social-icons a:link,
+.list-of-social-icons a:visited {
+    color: #000;
+}
+
+.social-i-fb,
+.social-i-tw,
+.social-i-gp {
+    font-size: 130%;
+    margin-right: 20px;
+}
+
+.social-i-ig {
+    font-size: 130%;
+}
+
+.social-i-fb:hover,
+.social-i-fb:active {
+    color: #3b5999;
+}
+
+.social-i-tw:hover,
+.social-i-tw:active {
+    color: #55acee;
+}
+
+.social-i-gp:hover,
+.social-i-gp:active {
+    color: #dd4b39;
+}
+
+.social-i-ig:hover,
+.social-i-ig:active {
+    color: #e4405f;
+}
+
+.box-class {
+    margin-bottom: 20px;
+}
+
+.r-more:link,
+.r-more:visited{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
 
 
-
+.r-more:hover,
+.r-more:active{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
