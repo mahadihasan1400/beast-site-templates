@@ -31,7 +31,7 @@ body {
 /*-----------------------------------------------*/
 
 section {
-    padding: 40px 0;
+    padding: 50px 0;
 }
 
 .long-copy {
@@ -75,7 +75,6 @@ section {
     font-size: 180%;
     margin-bottom: 30px;
 
-
 }
 
 .heading-h3 {
@@ -87,6 +86,7 @@ section {
     text-align: center;
 
 }
+
 .heading-h6 {
     font-size: 80%;
     margin-top: 15px;
@@ -115,6 +115,18 @@ section {
     padding-left: 100px;
     margin-bottom: 10px;
 }
+
+.icon-small {
+    color: #e67e22;
+    margin-right: 10px;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    display: inline-block;
+
+}
+
 /*-----------------------------------------------*/
 /*----------------------HEADER-------------------*/
 /*-----------------------------------------------*/
@@ -126,7 +138,7 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    display: none;
+    /*display: none;*/
 }
 
 .btn-full:link,
@@ -269,7 +281,6 @@ section {
     text-decoration: none;
     display: block;
     text-transform: uppercase;
-
 }
 
 .r-more span {
@@ -283,12 +294,12 @@ section {
     font-size: 80%;
     background-color: #e67e22;
     transition: .4s;
+    display: inline-block;
 }
 
 .r-more:hover span,
 .r-more:active span {
     background-color: #c56d17;
-
 
 }
 
@@ -303,7 +314,6 @@ section {
 
 }
 
-
 .trainer-bio {
     font-weight: 300;
     font-size: 90%;
@@ -315,7 +325,7 @@ section {
 /*----------------------GYM AT A GLANCE-------------------*/
 /*-----------------------------------------------*/
 
-.section-gym-vedio{
+.section-gym-vedio {
     /*background-color: #f4f4f4;*/
 }
 
@@ -328,7 +338,6 @@ video {
 /*-----------------------------------------------*/
 /*----------------------NEWS-------------------*/
 /*-----------------------------------------------*/
-
 .blog-short-desc {
     font-weight: 300;
     font-size: 90%;
@@ -345,9 +354,169 @@ video {
 
 .blog-title {
     display: block;
-    text-align: left;
+    text-align: center;
+    font-weight: 300;
 }
 
 .box-news {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/*-----------------------------------------------*/
+/*----------------------PLAN-------------------*/
+/*-----------------------------------------------*/
+.section-membership {
+    /*background-color: #f4f4f4;*/
+}
+
+.mem-title {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-mem {
+    font-size: 90%;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+
+.section-membership .list-group li span {
+    font-weight: 100;
+}
+
+.sign-up-pre,
+.sign-up-nor{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sign-up-pre a:link,
+.sign-up-pre a:visited {
+    text-decoration: none;
+    background-color: #e67e22;
+    padding: 8px 0;
+    font-size: 100%;
+    border-radius: 200px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.sign-up-pre a:link span,
+.sign-up-pre a:visited span {
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 300;
+    position: relative;
+    top: -3px;
+}
+
+.sign-up-pre a:hover,
+.sign-up-pre a:visited {
+    background-color: #c56d17;
+}
+
+
+.sign-up-nor a:link,
+.sign-up-nor a:visited {
+    text-decoration: none;
+    padding: 8px 0;
+    font-size: 100%;
+    border-radius: 200px;
+    transition: 0.3s;
+    border:1px solid #e67e22;
+    display: inline-block;
+}
+
+.sign-up-nor a:link span,
+.sign-up-nor a:visited span {
+    color: #e67e22;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 300;
+    position: relative;
+    top: -3px;
+}
+
+.sign-up-nor a:hover,
+.sign-up-nor a:visited  {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+.sign-up-nor a:hover span,
+.sign-up-nor a:visited span  {
+    color: #fff;
+}
+
+.box-mem {
+    margin-bottom: 30px;
+}
+
+/*-----------------------------------------------*/
+/*----------------------FOOTER-------------------*/
+/*-----------------------------------------------*/
+
+.section-footer {
+    /*background-image:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(image/ocean-footer.jpg);*/
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(image/ocean-footer.jpg);
+    background-repeat: repeat;
+    overflow: hidden;
+    height: 50vh;
+    background-position: center;
+
+}
+
+footer {
+    display: block;
+}
+
+.heading-h6-footer {
+    color: #f4f4f4;
+    margin-top: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+
+.footer-ul {
+    list-style:none;
+    margin-top: 10px;
+}
+.footer-ul li {
+    margin: 15px 0;
+}
+
+.footer-ul li i {
+display: inline-block;
+}
+
+.footer-ul li span {
+    color: rgb(240, 240, 240);
+    display: inline-block;
+    font-size: 80%;
+    font-weight: 300;
+}
+
+.ion-ios-phone-portrait {
+    margin-left: 4px;
+}
+
+.ion-ios-mail {
+    vertical-align: -6px;
 }
