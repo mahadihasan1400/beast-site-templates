@@ -543,12 +543,12 @@ footer {
     color: rgb(240, 240, 240);
     font-size: 80%;
     font-weight: 300;
-    text-align: justify;
+    /*text-align: justify;*/
     display: block;
 }
 
 .ion-ios-bonfire {
-    vertical-align: -4px;
+    vertical-align: -1px;
 }
 
 .footer-ul-time-sch li {
