@@ -604,7 +604,7 @@ footer {
     font-size: 120%;
     position: relative;
     top: -3px;
-    color:  #333;
+    color: #333;
     transition: 0.3s;
 }
 
@@ -618,27 +618,27 @@ footer {
     list-style: none;
 }
 
-.footer-ul-social li i{
-     /*color: #f4f4f4;*/
+.footer-ul-social li i {
+    /*color: #f4f4f4;*/
     color: #e67e22;
 }
 
-.footer-ul-social li .ion-logo-facebook{
-     font-size: 200%;
-     margin-right: 10px;
- }
-
-.footer-ul-social li .ion-logo-twitter{
+.footer-ul-social li .ion-logo-facebook {
     font-size: 200%;
     margin-right: 10px;
 }
 
-.footer-ul-social li .ion-logo-googleplus{
+.footer-ul-social li .ion-logo-twitter {
     font-size: 200%;
     margin-right: 10px;
 }
 
-.footer-ul-social li .ion-logo-instagram{
+.footer-ul-social li .ion-logo-googleplus {
+    font-size: 200%;
+    margin-right: 10px;
+}
+
+.footer-ul-social li .ion-logo-instagram {
     font-size: 200%;
     margin-right: 10px;
 }
@@ -666,4 +666,72 @@ footer {
     font-weight: 300;
     color: rgb(240, 240, 240);
     margin-top: 20px;
+}
+
+/*-----------------------------------------------*/
+/*----------------------ABOUT US-------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*--------------OUR HISTORY-----------------*/
+/*-----------------------------------------------*/
+
+.section-header-about-us {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+
+}
+
+.heading-h5-history {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e67e22;
+}
+
+.history-desc {
+    line-height: 145%;
+    text-align: justify;
+    font-size: 100%;
+    font-weight: 300;
+}
+
+.history-img {
+    border-radius: 2px;
+}
+
+/*-----------------------------------------------*/
+/*--------------WHY CHOOSE US-----------------*/
+/*-----------------------------------------------*/
+
+.heading-h5-why-choose-us {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #e67e22;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.icon-facilities {
+    font-size: 300%;
+    color: #e67e22;
+
+}
+
+.box-facilities-text p{
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+    text-align: left;
+    line-height: 145%;
+    font-size: 90%;
+    display: block;
+    font-weight: 300;
+}
+
+.img-choose-us{
+    margin-top: 80px;
+    border-radius: 2px;
 }
