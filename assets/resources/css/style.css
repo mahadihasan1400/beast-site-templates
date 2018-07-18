@@ -1,5 +1,5 @@
-/*-----------------------------------------------*/
-/*---------Base color-------------------*/
+/*------------------------------------------------*/
+/*---------Base color-----------------------------*/
 
 /*
 color: #e67e22;
@@ -200,7 +200,7 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------FEATURES-------------------*/
+/*----------------------FEATURES-----------------*/
 /*-----------------------------------------------*/
 
 .section-features {
@@ -208,7 +208,7 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------CLASSES-------------------*/
+/*----------------------CLASSES------------------*/
 /*-----------------------------------------------*/
 
 .section-classes {
@@ -263,22 +263,30 @@ section {
 }
 
 .social-i-fb:hover,
-.social-i-fb:active {
+.social-i-fb:active,
+.fb-icon:hover,
+.fb-icon:active {
     color: #3b5999;
 }
 
 .social-i-tw:hover,
-.social-i-tw:active {
+.social-i-tw:active,
+.tw-icon:hover,
+.tw-icon:active {
     color: #55acee;
 }
 
 .social-i-gp:hover,
-.social-i-gp:active {
+.social-i-gp:active,
+.gp-icon:hover,
+.gp-icon:active {
     color: #dd4b39;
 }
 
 .social-i-ig:hover,
-.social-i-ig:active {
+.social-i-ig:active,
+.ig-icon:hover,
+.ig-icon:active {
     color: #e4405f;
 }
 
@@ -316,7 +324,7 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------TRAINERS-------------------*/
+/*----------------------TRAINERS-----------------*/
 /*-----------------------------------------------*/
 
 .section-trainers {
@@ -334,7 +342,7 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------GYM AT A GLANCE-------------------*/
+/*----------------------GYM AT A GLANCE----------*/
 /*-----------------------------------------------*/
 
 .section-gym-vedio {
@@ -348,7 +356,7 @@ video {
 }
 
 /*-----------------------------------------------*/
-/*----------------------NEWS-------------------*/
+/*----------------------NEWS---------------------*/
 /*-----------------------------------------------*/
 .blog-short-desc {
     font-weight: 300;
@@ -375,7 +383,7 @@ video {
 }
 
 /*-----------------------------------------------*/
-/*----------------------PLAN-------------------*/
+/*----------------------PLAN---------------------*/
 /*-----------------------------------------------*/
 .section-membership {
     /*background-color: #f4f4f4;*/
@@ -669,11 +677,11 @@ footer {
 }
 
 /*-----------------------------------------------*/
-/*----------------------ABOUT US-------------------*/
+/*----------------------ABOUT US-----------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
-/*--------------OUR HISTORY-----------------*/
+/*--------------OUR HISTORY----------------------*/
 /*-----------------------------------------------*/
 
 .section-header-about-us {
@@ -704,7 +712,7 @@ footer {
 }
 
 /*-----------------------------------------------*/
-/*--------------WHY CHOOSE US-----------------*/
+/*--------------WHY CHOOSE US--------------------*/
 /*-----------------------------------------------*/
 
 .heading-h5-why-choose-us {
@@ -738,7 +746,7 @@ footer {
 }
 
 /*-----------------------------------------------*/
-/*--------------TESTIMONIALS-----------------*/
+/*--------------TESTIMONIALS---------------------*/
 /*-----------------------------------------------*/
 .section-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/testimonials-bg-min.jpg);
@@ -763,11 +771,11 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*----------------------CLASSES-------------------*/
+/*----------------------CLASSES------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
-/*--------------SECTION CLASSES-----------------*/
+/*--------------SECTION CLASSES------------------*/
 /*-----------------------------------------------*/
 
 .section-header-classes {
@@ -867,8 +875,10 @@ blockquote:before {
     font-weight: 500;
 }
 
-.blog-title-short-desc h5 {
-    font-weight: 500;
+.blog-title-short-desc h5,
+.class-title-short-desc h5 {
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .blog-title-short-desc p {
@@ -989,7 +999,7 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*----------------------SCHEDULE------------------*/
+/*---------------------SCHEDULE------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -1044,7 +1054,7 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*----------------------CONTACT------------------*/
+/*-------------------CONTACT---------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -1088,4 +1098,202 @@ blockquote:before {
 
 .custom-submit-btn:hover {
     background-color: #c56d17;
+}
+
+.box-head-office p:first-child i {
+    color: #e67e22;
+    font-size: 200%;
+    vertical-align: sub;
+
+}
+
+.box-head-office p:first-child {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-bottom: 1px solid #dedcdc;
+}
+
+.club-name {
+    text-transform: uppercase;
+    color: #e67e22;
+    font-weight: 400;
+    font-size: 90%;
+    display: block;
+    margin-bottom: 0;
+}
+
+.box-head-office p:nth-child(3) span {
+    display: block;
+    font-size: 75%;
+    color: #494f5c;
+    text-align: justify;
+}
+
+.social-ul {
+    list-style: none;
+}
+
+.social-ul li a {
+    display: inline-block;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #000;
+
+}
+
+.social-ul li a:link,
+.social-ul li a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.social-ul li a i {
+    font-size: 180%;
+    color: #fff;
+    position: relative;
+    top: -4px;
+    transition: .3s;
+}
+
+/*-----------------------------------------------*/
+/*-------------------CLASS-----------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*--------------CLASS DETAILS--------------------*/
+/*-----------------------------------------------*/
+
+.section-header-class-details {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.class-title-short-desc p {
+    line-height: 145%;
+    text-align: justify;
+    font-size: 90%;
+    font-weight: 300;
+    display: block;
+}
+
+.ul-benefits,
+.ul-times,
+.ul-Instructor,
+.ul-Instructor li ul {
+    list-style: none;
+}
+
+.ul-benefits li,
+.ul-times li,
+.ul-Instructor li {
+    font-size: 90%;
+    font-weight: 300;
+
+}
+
+.ul-benefits li::before,
+.ul-times li i,
+.ul-Instructor li i {
+    content: "\003e";
+    color: #e67e22;
+    font-size: 120%;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+}
+
+.ul-Instructor li a:link,
+.ul-Instructor li a:visited {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.ul-Instructor li ul li {
+    font-size: 90%;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ul-Instructor li ul li:first-child {
+    margin: 5px 0;
+}
+
+.ul-Instructor li ul li:last-child {
+    text-align: left;
+    margin-left: 18px;
+
+}
+
+.ul-Instructor li ul li:last-child a:link i,
+.ul-Instructor li ul li:last-child a:visited i {
+    font-size: 150%;
+    color: #000;
+    transition: .3s;
+
+}
+
+.ul-Instructor li ul li:last-child a:nth-child(1):hover i,
+.ul-Instructor li ul li:last-child a:nth-child(1):active i {
+    color: #3b5999;
+}
+
+.ul-Instructor li ul li:last-child a:nth-child(2):hover i,
+.ul-Instructor li ul li:last-child a:nth-child(2):active i {
+    color: #55acee;
+}
+
+.ul-Instructor li ul li:last-child a:nth-child(3):hover i,
+.ul-Instructor li ul li:last-child a:nth-child(3):active i {
+    color: #dd4b39;
+}
+
+.ul-Instructor li ul li:last-child a:nth-child(4):hover i,
+.ul-Instructor li ul li:last-child a:nth-child(4):active i {
+    color: #e4405f;
+}
+
+.ul-Instructor li ul li i {
+    color: #e67e22;
+    font-size: 100%;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.ul-Instructor li {
+    display: block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.box-reg a:link,
+.box-reg a:visited {
+    text-align: left;
+}
+
+.btn-search {
+    height: 48px;
+    background-color: #e67e22;
+    display: block;
+}
+
+.btn-search i {
+    font-size: 120%;
+    position: relative;
+    top: -3px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.btn-search:hover i {
+    color: #f4f4f4;
 }

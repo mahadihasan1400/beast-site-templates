@@ -14,10 +14,12 @@ $(document).ready(function () {
         lat: lat,
         lng: lng,
         title: 'Lima',
-        click: function (e) {
-            alert('You clicked in this marker');
+        infoWindow: {
+            content: '<p>BRAST CLUB</p>'
         }
+
     });
+
 
 
     // $('h2').click(function () {
