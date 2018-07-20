@@ -882,9 +882,9 @@ blockquote:before {
 }
 
 .blog-title-short-desc p {
-    line-height: 145%;
-    text-align: justify;
-    font-size: 100%;
+    line-height: 150%;
+    text-align: left;
+    font-size: 90%;
     font-weight: 300;
     display: block;
 }
@@ -1082,7 +1082,7 @@ blockquote:before {
 .form-box input::-webkit-input-placeholder {
     font-size: 80%;
     line-height: 3;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .custom-submit-btn {
@@ -1229,7 +1229,7 @@ blockquote:before {
 
 .ul-Instructor li ul li:last-child {
     text-align: left;
-    margin-left: 18px;
+    margin-left: 3px;
 
 }
 
@@ -1237,6 +1237,7 @@ blockquote:before {
 .ul-Instructor li ul li:last-child a:visited i {
     font-size: 150%;
     color: #000;
+    /*color:  #e67e22;*/
     transition: .3s;
 
 }
@@ -1296,4 +1297,154 @@ blockquote:before {
 
 .btn-search:hover i {
     color: #f4f4f4;
+}
+
+/*-----------------------------------------------*/
+/*-------------------TRAINER-----------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*--------------TRAINER DETAILS--------------------*/
+/*-----------------------------------------------*/
+
+.section-header-trainer-details {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.box-trainer-details h6,
+.box-trainer-details p:nth-child(2) {
+    text-transform: uppercase;
+
+}
+
+.box-trainer-details p:nth-child(2) {
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+
+.box-trainer-details p:nth-child(3),
+.box-trainer-details p:nth-child(4) {
+    font-size: 85%;
+    font-weight: 300;
+    line-height: 1.5;
+
+}
+
+.box-trainer-details p:nth-child(5) {
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.ul-trainer-exp {
+    list-style: none;
+}
+
+.ul-trainer-expr li {
+    display: block;
+
+}
+
+.ul-trainer-exp li i {
+    color: #e67e22;
+    font-size: 110%;
+
+}
+
+.ul-trainer-exp li span {
+    font-size: 85%;
+    margin-left: 10px;
+    font-weight: 400;
+    vertical-align: 3px;
+
+}
+
+.ul-trainer-exp li:last-child a i {
+    transition: .3s;
+}
+
+/*.ul-trainer-exp li:last-child a:link i,*/
+/*.ul-trainer-exp li:last-child a:visited i {*/
+/*font-size: 100%;*/
+/*color: #000;*/
+/*transition: .3s;*/
+
+/*}*/
+
+/*.ul-trainer-exp li:last-child a:nth-child(1):hover i,*/
+/*.ul-trainer-exp li:last-child a:nth-child(1):active i {*/
+/*color: #3b5999;*/
+/*}*/
+
+/*.ul-trainer-exp li:last-child a:nth-child(2):hover i,*/
+/*.ul-trainer-exp li:last-child a:nth-child(2):active i {*/
+/*color: #55acee;*/
+/*}*/
+
+/*.ul-trainer-exp li:last-child a:nth-child(3):hover i,*/
+/*.ul-trainer-exp li:last-child a:nth-child(3):active i {*/
+/*color: #dd4b39;*/
+/*}*/
+
+/*.ul-trainer-exp li:last-child a:nth-child(4):hover i,*/
+/*.ul-trainer-exp li:last-child a:nth-child(4):active i {*/
+/*color: #e4405f;*/
+/*}*/
+/*-----------------------------------------------*/
+/*-------------------NEWS-----------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*--------------NEWS DETAILS--------------------*/
+/*-----------------------------------------------*/
+.box-share-news {
+    background-color: #1e2123;
+}
+
+.box-share-news h5 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.box-share-news div:first-child {
+    padding: 10px;
+    padding-top: 20px;
+    border-right: 1px solid #e67e22;
+}
+
+.social-ul-share {
+    list-style: none;
+    float: right;
+}
+
+.social-ul-share li {
+    display: inline-block;
+}
+.social-ul-share li a {
+   margin-right: 10px;
+}
+.social-ul-share li a:last-child {
+    margin-right: 0px;
+}
+.social-ul-share li a i {
+    font-size: 200%;
+    color: #e67e22;
+    transition: .3s;
+}
+
+.rit-icon:hover,
+.rit-icon:active {
+    color: #ff5700;
+}
+
+.ln-icon:hover,
+.ln-icon:active {
+    color: #0077B5;
 }
