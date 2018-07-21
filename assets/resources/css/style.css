@@ -38,7 +38,7 @@ section {
     line-height: 145%;
     width: 75%;
     margin-left: 15%;
-    text-align: justify;
+    text-align: center;
     font-size: 100%;
     font-weight: 300;
 }
@@ -631,22 +631,10 @@ footer {
     color: #e67e22;
 }
 
-.footer-ul-social li .ion-logo-facebook {
-    font-size: 200%;
-    margin-right: 10px;
-}
-
-.footer-ul-social li .ion-logo-twitter {
-    font-size: 200%;
-    margin-right: 10px;
-}
-
-.footer-ul-social li .ion-logo-googleplus {
-    font-size: 200%;
-    margin-right: 10px;
-}
-
-.footer-ul-social li .ion-logo-instagram {
+.footer-ul-social li .ion-logo-facebook,
+.footer-ul-social li .ion-logo-twitter,
+.footer-ul-social li .ion-logo-googleplus,
+.footer-ul-social li .ion-logo-instagram{
     font-size: 200%;
     margin-right: 10px;
 }
@@ -1085,6 +1073,8 @@ blockquote:before {
     font-weight: 400;
 }
 
+
+
 .custom-submit-btn {
     background-color: #e67e22;
 }
@@ -1284,7 +1274,8 @@ blockquote:before {
 .btn-search {
     height: 48px;
     background-color: #e67e22;
-    display: block;
+    display:block;
+
 }
 
 .btn-search i {

@@ -53,10 +53,12 @@
                     <a class="nav-link" href="gallery.html"><span>gallery</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-toggle="dropdown">
                         <span>news</span>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgba(5, 0, 0, 0.77);">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"
+                         style="background-color: rgba(5, 0, 0, 0.77);">
                         <a class="nav-link" href="news.html"><span>news</span></a>
                         <a class="nav-link" href="news-grid.html"><span>news grid</span></a>
                         <a class="nav-link" href="news-details.html"><span>News Details</span></a>
@@ -184,19 +186,30 @@
             <div class="col-xl-4 col-lg-4 col-md-4">
                 <div class="row">
                     <div class="col-sm-12 mt-4">
-                        <form action="demo.text" method="post">
-                            <div class="row">
-                                <div class="col-sm-10 col-10 pr-0">
-                                    <input type="text" name="search" placeholder="search item..."
-                                           class="form-control"/>
-                                </div>
-                                <div class="col-sm-2 col-2 p-0">
-                                    <button class="btn btn-search" type="submit">
-                                        <i class="icon ion-ios-search"></i>
-                                    </button>
-                                </div>
-                            </div>
+
+                        <!--search bar with icon -->
+
+                        <!--<form action="demo.text" method="post">
+                               <div class="row">
+                                   <div class="col-sm-10 col-10 pr-0 box-search-input">
+                                       <input type="text" name="search" placeholder="search item..."
+                                              class="form-control"/>
+                                   </div>
+                                   <div class="col-sm-2 col-2 p-0 box-search-icon">
+                                       <button class="btn btn-search" type="submit">
+                                           <i class="icon ion-ios-search"></i>
+                                       </button>
+                                   </div>
+                               </div>
+                           </form> -->
+
+                        <!--search bar without icon -->
+
+                        <form action="demo.text" method="get">
+                            <input type="text" name="search" placeholder="search item..."
+                                   class="form-control"/>
                         </form>
+
                     </div>
 
                     <div class="col-sm-12 mt-4">
