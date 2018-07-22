@@ -1406,12 +1406,15 @@ blockquote:before {
     text-transform: uppercase;
 }
 
-.box-share-news div:first-child {
+.box-share-news div div:first-child {
     padding: 10px;
-    padding-top: 20px;
+    padding-top: 25px;
     border-right: 1px solid #e67e22;
 }
+.box-share-news div div:last-child {
+     padding-top: 10px;
 
+ }
 .social-ul-share {
     list-style: none;
     float: right;
