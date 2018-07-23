@@ -251,6 +251,10 @@ section {
     color: #000;
 }
 
+.list-of-social-icons a i{
+    transition: .3s;
+}
+
 .social-i-fb,
 .social-i-tw,
 .social-i-gp {
@@ -634,7 +638,7 @@ footer {
 .footer-ul-social li .ion-logo-facebook,
 .footer-ul-social li .ion-logo-twitter,
 .footer-ul-social li .ion-logo-googleplus,
-.footer-ul-social li .ion-logo-instagram{
+.footer-ul-social li .ion-logo-instagram {
     font-size: 200%;
     margin-right: 10px;
 }
@@ -883,13 +887,16 @@ blockquote:before {
 }
 
 .box-categories div:first-child,
-.box-hot-news div:first-child {
+.box-hot-news div:first-child,
+.box-shop-discount div:first-child {
     color: #fff;
     background-color: #e67e22;
+    text-transform: uppercase;
 }
 
 .box-categories ul li,
-.box-hot-news ul li {
+.box-hot-news ul li,
+.box-shop-discount ul li {
     list-style: none;
     font-size: 75%;
     margin: 20px 0;
@@ -1072,8 +1079,6 @@ blockquote:before {
     line-height: 3;
     font-weight: 400;
 }
-
-
 
 .custom-submit-btn {
     background-color: #e67e22;
@@ -1274,7 +1279,7 @@ blockquote:before {
 .btn-search {
     height: 48px;
     background-color: #e67e22;
-    display:block;
+    display: block;
 
 }
 
@@ -1389,7 +1394,6 @@ blockquote:before {
 /*color: #e4405f;*/
 /*}*/
 
-
 /*-----------------------------------------------*/
 /*-------------------NEWS------------------------*/
 /*-----------------------------------------------*/
@@ -1411,10 +1415,12 @@ blockquote:before {
     padding-top: 25px;
     border-right: 1px solid #e67e22;
 }
-.box-share-news div div:last-child {
-     padding-top: 10px;
 
- }
+.box-share-news div div:last-child {
+    padding-top: 10px;
+
+}
+
 .social-ul-share {
     list-style: none;
     float: right;
@@ -1423,12 +1429,15 @@ blockquote:before {
 .social-ul-share li {
     display: inline-block;
 }
+
 .social-ul-share li a {
-   margin-right: 10px;
+    margin-right: 10px;
 }
+
 .social-ul-share li a:last-child {
     margin-right: 0px;
 }
+
 .social-ul-share li a i {
     font-size: 200%;
     color: #e67e22;
@@ -1445,7 +1454,6 @@ blockquote:before {
     color: #0077B5;
 }
 
-
 /*-----------------------------------------------*/
 /*-------REGISTRATION FORM-----------------------*/
 /*-----------------------------------------------*/
@@ -1454,7 +1462,7 @@ blockquote:before {
 /*----SECTION REGISTRATION FORM------------------*/
 /*-----------------------------------------------*/
 
-.section-header-reg-form{
+.section-header-reg-form {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1466,4 +1474,227 @@ blockquote:before {
     position: relative;
     top: -5px;
     font-size: 90%;
+}
+
+/*-----------------------------------------------*/
+/*--------------------SHOP-----------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*-----------------SECTION SHOP------------------*/
+/*-----------------------------------------------*/
+.section-header-shop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-attachment: fixed;
+}
+
+.box-shop-discount ul li span {
+    vertical-align: 1px;
+}
+
+.box-shop-discount ul li input[type=checkbox] {
+    cursor: pointer;
+}
+
+.box-shop-item div h6 {
+    text-transform: uppercase;
+}
+
+.box-shop-item div a:link,
+.box-shop-item div a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.ul-stars {
+    list-style: none;
+    margin: 0;
+    display: block;
+}
+
+.ul-stars li {
+    display: inline;
+    color: #e67e22;
+}
+
+.ul-stars li:last-child {
+    color: #000;
+}
+
+.box-shop-item div span {
+    font-weight: 300;
+    display: block;
+}
+
+.add-cart:link,
+.add-cart:visited {
+    text-transform: uppercase;
+    display: block;
+    background-color: #e67e22;
+    padding: 10px;
+    font-size: 80%;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.add-cart:hover,
+.add-cart:active {
+    background-color: #c56d17;
+}
+
+.add-cart span {
+    color: #fff;
+}
+
+/*-----------------------------------------------*/
+/*------------SHOP DETAILS-----------------------*/
+/*-----------------------------------------------*/
+
+/*-----------------------------------------------*/
+/*---------SECTION SHOP DETAILS------------------*/
+/*-----------------------------------------------*/
+.box-shop-details h4 {
+    text-transform: uppercase;
+}
+
+.box-shop-details span {
+    font-size: 150%;
+    font-weight: 500;
+    color: #e67e22;
+
+}
+
+.box-shop-details p {
+    font-size: 80%;
+    font-weight: 400;
+    line-height: 145%;
+}
+
+.box-quantity input[type=text] {
+    width: 15%;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+
+}
+
+.btn-minus,
+.btn-plus {
+    width: 8%;
+    border: 1px solid #fff;
+    background-color: white;
+    cursor: pointer;
+    color: #e67e22;
+    display: inline-block;
+
+}
+
+.btn-minus:focus,
+.btn-plus:focus {
+    outline: none;
+}
+
+.box-quantity a:link,
+.box-quantity a:visited {
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #e67e22;
+    padding: 10px;
+    font-size: 80%;
+    transition: .3s;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.box-quantity a:hover,
+.box-quantity a:active {
+    background-color: #c56d17;
+}
+
+.box-quantity span {
+    font-size: 80%;
+    color: black;
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.box-quantity span a:link,
+.box-quantity span a:visited{
+    text-transform: uppercase;
+    background-color: #fff;
+    padding: 0px;
+    font-size: 80%;
+    transition: .3s;
+    color: #000;
+    text-decoration: none;
+    margin-left: 0px;
+    border-radius: 0px;
+    font-weight: 400;
+}
+
+.box-quantity span a:hover,
+.box-quantity span a:active{
+   color: #e67e22;
+}
+
+.box-share-product{
+    list-style: none;
+    margin-top: 10px;
+}
+.box-share-product li a:link,
+.box-share-product li a:visited{
+    text-decoration: none;
+    color:#000;
+    font-size: 200%;
+
+}
+
+.box-share-product li a i{
+    transition: .3s;
+}
+.box-share-product li a:nth-child(1) i:hover{
+    color: #3b5999;
+}
+.box-share-product li a:nth-child(2) i:hover{
+    color: #55acee;
+}
+.box-share-product li a:nth-child(3) i:hover{
+    color: #dd4b39;
+}
+.box-share-product li a:nth-child(4) i:hover{
+    color: #e4405f;
+}
+
+/*-----------------------------------------------*/
+/*---------------ANIMATIONS----------------------*/
+/*-----------------------------------------------*/
+
+/* opacity: 0 means it completely hide the element and opacity: 1 means it visible the elements*/
+
+.js--wp-features,
+.js--wp-classes,
+.js--wp-trainers,
+.js--wp-popular-news,
+.js--wp-facilities {
+    opacity: 0;
+    animation-duration: 1s;
+}
+
+.js--wp-features.animated,
+.js--wp-classes.animated,
+.js--wp-trainers.animated,
+js--wp-popular-news.animated,
+js--wp-facilities.animated {
+    opacity: 1;
+}
+
+.js--wp-dm {
+    animation-duration: 1s;
 }
