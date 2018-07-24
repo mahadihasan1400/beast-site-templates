@@ -12,7 +12,79 @@ $(document).ready(function () {
         $('#qt').val(++quantity);
     });
 
+    $('.ul-desc-rev-ai li:nth-child(1)').addClass('js--li-b-b');
+    $('.ul-desc-rev-ai li:nth-child(1) a span').addClass('js--li-t-color');
+    $('.box-product-long-desc').addClass('js-display-1');
+    $('.box-product-ai').addClass('js-display-0');
+    $('.box-product-rv').addClass('js-display-0');
 
+    $('#p-desc').click(function () {
+        $('.ul-desc-rev-ai li:nth-child(1)').addClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(1) a span').addClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(2)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(2) a span').removeClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(3)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(3) a span').removeClass('js--li-t-color');
+
+        $('.box-product-ai').addClass('js-display-0');
+        $('.box-product-rv').addClass('js-display-0');
+
+        $('.box-product-long-desc').removeClass('js-display-1');
+
+        $('.box-product-long-desc').removeClass('js-display-0');
+        $('.box-product-long-desc').addClass('js-display-1');
+
+
+    });
+
+    $('#p-ai').click(function () {
+        $('.ul-desc-rev-ai li:nth-child(2)').addClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(2) a span').addClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(1)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(1) a span').removeClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(3)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(3) a span').removeClass('js--li-t-color');
+
+
+
+        $('.box-product-long-desc').removeClass('js-display-1');
+        $('.box-product-long-desc').addClass('js-display-0');
+
+        $('.box-product-rv').removeClass('js-display-1');
+        $('.box-product-rv').addClass('js-display-0');
+
+        $('.box-product-ai').removeClass('js-display-0');
+        $('.box-product-ai').addClass('js-display-1');
+
+
+
+
+    });
+
+    $('#p-rev').click(function () {
+        $('.ul-desc-rev-ai li:nth-child(3)').addClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(3) a span').addClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(1)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(1) a span').removeClass('js--li-t-color');
+
+        $('.ul-desc-rev-ai li:nth-child(2)').removeClass('js--li-b-b');
+        $('.ul-desc-rev-ai li:nth-child(2) a span').removeClass('js--li-t-color');
+
+        $('.box-product-long-desc').removeClass('js-display-1');
+        $('.box-product-long-desc').addClass('js-display-0');
+
+        $('.box-product-ai').removeClass('js-display-1');
+        $('.box-product-ai').addClass('js-display-0');
+
+        $('.box-product-rv').removeClass('js-display-0');
+        $('.box-product-rv').addClass('js-display-1');
+
+    });
     /*scroll to start*/
     $('.js--scroll-to-plan').click(function () {
         $('html,body').animate({scrollTop: $('.js--section-membership').offset().top}, 1000);
@@ -56,6 +128,15 @@ $(document).ready(function () {
     $('.js--wp-popular-news').waypoint(function (direction) {
 
         $('.js--wp-popular-news').addClass('animated fadeInUp');
+
+
+    }, {
+        offset: '50%'
+    });
+
+    $('.js--wp-rp').waypoint(function (direction) {
+
+        $('.js--wp-rp').addClass('animated fadeInUp');
 
 
     }, {

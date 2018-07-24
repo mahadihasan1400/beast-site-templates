@@ -251,7 +251,7 @@ section {
     color: #000;
 }
 
-.list-of-social-icons a i{
+.list-of-social-icons a i {
     transition: .3s;
 }
 
@@ -1569,7 +1569,7 @@ blockquote:before {
 
 .box-shop-details p {
     font-size: 80%;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 145%;
 }
 
@@ -1608,7 +1608,7 @@ blockquote:before {
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
-    border-radius: 10px;
+    border-radius: 0px;
 
 }
 
@@ -1626,7 +1626,7 @@ blockquote:before {
 }
 
 .box-quantity span a:link,
-.box-quantity span a:visited{
+.box-quantity span a:visited {
     text-transform: uppercase;
     background-color: #fff;
     padding: 0px;
@@ -1640,36 +1640,130 @@ blockquote:before {
 }
 
 .box-quantity span a:hover,
-.box-quantity span a:active{
-   color: #e67e22;
+.box-quantity span a:active {
+    color: #e67e22;
 }
 
-.box-share-product{
+.box-share-product {
     list-style: none;
     margin-top: 10px;
 }
+
 .box-share-product li a:link,
-.box-share-product li a:visited{
+.box-share-product li a:visited {
     text-decoration: none;
-    color:#000;
+    color: #000;
     font-size: 200%;
 
 }
 
-.box-share-product li a i{
+.box-share-product li a i {
     transition: .3s;
 }
-.box-share-product li a:nth-child(1) i:hover{
+
+.box-share-product li a:nth-child(1) i:hover {
     color: #3b5999;
 }
-.box-share-product li a:nth-child(2) i:hover{
+
+.box-share-product li a:nth-child(2) i:hover {
     color: #55acee;
 }
-.box-share-product li a:nth-child(3) i:hover{
+
+.box-share-product li a:nth-child(3) i:hover {
     color: #dd4b39;
 }
-.box-share-product li a:nth-child(4) i:hover{
+
+.box-share-product li a:nth-child(4) i:hover {
     color: #e4405f;
+}
+
+.ul-desc-rev-ai {
+    list-style: none;
+    border-bottom: 1px solid #dedcdc;
+}
+
+.ul-desc-rev-ai li {
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 10px;
+
+}
+
+.ul-desc-rev-ai li a:link,
+.ul-desc-rev-ai li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+    color: #7a7a7a;
+}
+
+.js--li-t-color {
+    color: #000;
+}
+
+.js--li-b-b {
+    border-bottom: 2px solid #e67e22;
+}
+
+.box-product-long-desc p,
+.box-product-ai p {
+    font-size: 80%;
+    font-weight: 300;
+    line-height: 145%;
+}
+
+.box-product-ai table tr th {
+    font-size: 70%;
+}
+
+.box-product-ai table tr td {
+    font-size: 80%;
+}
+
+.js-display-1 {
+    display: block;
+}
+
+.js-display-0 {
+    display: none;
+}
+
+.box-product-rv h6,
+.box-product-rv span {
+    text-transform: uppercase;
+}
+
+.box-product-rv span {
+    font-size: 80%;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.btn-rv {
+    background-color: #e67e22;
+    height: 50px;
+    transition: 5s;
+
+}
+
+.btn-rv span {
+    color: #fff;
+    font-weight: 400;
+    font-size: 90%;
+    text-transform: uppercase;
+    padding: 4px 10px 0px 10px;
+
+}
+
+.btn-rv:hover {
+    background-color: #c56d17;
+}
+
+.box-product-rv form label{
+    font-weight: 300;
 }
 
 /*-----------------------------------------------*/
@@ -1682,7 +1776,8 @@ blockquote:before {
 .js--wp-classes,
 .js--wp-trainers,
 .js--wp-popular-news,
-.js--wp-facilities {
+.js--wp-facilities,
+.js--wp-rp {
     opacity: 0;
     animation-duration: 1s;
 }
@@ -1691,7 +1786,8 @@ blockquote:before {
 .js--wp-classes.animated,
 .js--wp-trainers.animated,
 js--wp-popular-news.animated,
-js--wp-facilities.animated {
+js--wp-facilities.animated,
+.js--wp-rp.animated {
     opacity: 1;
 }
 
