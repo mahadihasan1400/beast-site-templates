@@ -1,24 +1,26 @@
-$(document).ready(function () {
+(function ($) {
+    "use strict";
 
     /* raw script */
 
-    $('.btn-minus').click(function () {
+    $('.btn-minus').on('click',function () {
         var quantity = $('#qt').val();
         $('#qt').val(--quantity);
     });
 
-    $('.btn-plus').click(function () {
+    $('.btn-plus').on('click',function () {
         var quantity = $('#qt').val();
         $('#qt').val(++quantity);
     });
 
     $('.ul-desc-rev-ai li:nth-child(1)').addClass('js--li-b-b');
     $('.ul-desc-rev-ai li:nth-child(1) a span').addClass('js--li-t-color');
+
     $('.box-product-long-desc').addClass('js-display-1');
     $('.box-product-ai').addClass('js-display-0');
     $('.box-product-rv').addClass('js-display-0');
 
-    $('#p-desc').click(function () {
+    $('#p-desc').on('click',function () {
         $('.ul-desc-rev-ai li:nth-child(1)').addClass('js--li-b-b');
         $('.ul-desc-rev-ai li:nth-child(1) a span').addClass('js--li-t-color');
 
@@ -42,7 +44,7 @@ $(document).ready(function () {
 
     });
 
-    $('#p-ai').click(function () {
+    $('#p-ai').on('click',function () {
         $('.ul-desc-rev-ai li:nth-child(2)').addClass('js--li-b-b');
         $('.ul-desc-rev-ai li:nth-child(2) a span').addClass('js--li-t-color');
 
@@ -63,12 +65,9 @@ $(document).ready(function () {
         $('.box-product-ai').removeClass('js-display-0');
         $('.box-product-ai').addClass('js-display-1');
 
-
-
-
     });
 
-    $('#p-rev').click(function () {
+    $('#p-rev').on('click',function () {
         $('.ul-desc-rev-ai li:nth-child(3)').addClass('js--li-b-b');
         $('.ul-desc-rev-ai li:nth-child(3) a span').addClass('js--li-t-color');
 
@@ -88,12 +87,13 @@ $(document).ready(function () {
         $('.box-product-rv').addClass('js-display-1');
 
     });
+
     /*scroll to start*/
-    $('.js--scroll-to-plan').click(function () {
+    $('.js--scroll-to-plan').on('click',function () {
         $('html,body').animate({scrollTop: $('.js--section-membership').offset().top}, 1000);
     });
 
-    $('.js--scroll-to-start').click(function () {
+    $('.js--scroll-to-start').on('click',function () {
 
         $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000);
 
@@ -185,4 +185,5 @@ $(document).ready(function () {
 
     });
 
-});
+    
+})(jQuery);

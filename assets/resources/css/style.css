@@ -1,17 +1,78 @@
-/*------------------------------------------------*/
-/*---------Base color-----------------------------*/
+/*-----------------------------------------------*/
+/*----------------CSS INDEX----------------------*/
+/*-----------------------------------------------*/
 
 /*
-color: #e67e22;
-color: #ec3642;
+    1. INDEX
+       1.1 HEADER
+       1.2 I-CLASSES
+       1.3 I-TRAINERS
+       1.4 I-GYM AT A GLANCE
+       1.5 I-NEWS
+       1.6 I-PLAN
+       1.7 FOOTER
+
+    2. ABOUT US
+       2.1 OUR HISTORY
+       2.2 WHY CHOOSE US
+       2.3 TESTIMONIALS
+    3. CLASSES
+       3.1 SECTION CLASSES
+
+    4. TRAINERS
+       4.1 SECTION TRAINERS
+
+    5. MEMBERSHIPS
+       5.1 SECTION MEMBERSHIPS
+
+    6. NEWS
+       6.1 SECTION NEWS
+
+    7. GALLERY
+       7.1 SECTION GALLERY
+
+    8. SCHEDULE
+       8.1 SECTION SCHEDULE
+
+    9. CONTACT
+       9.1 SECTION CONTACT
+
+    10. CLASS DETAILS
+       10.1 SECTION CLASS DETAILS
+
+    11. TRAINER DETAILS
+       11.1 SECTION TRAINER DETAILS
+
+    12. NEWS DETAILS
+       12.1 SECTION NEWS DETAILS
+
+    13. REGISTRATION FORM
+       13.1 SECTION REGISTRATION FORM
+
+    14. SHOP
+       14.1 SECTION SHOP
+
+    15. SHOP DETAILS
+       15.1 SECTION SHOP DETAILS
+
+    16. ANIMATIONS
+
+    17. REUSABLE COMPONENTS
 
 */
 
+/*------------------------------------------------*/
+/*-------------------Base color------------------*/
+/*
+color: #e67e22;
+color: #ec3642;
+*/
 /*-----------------------------------------------*/
 
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -140,7 +201,12 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------HEADER-------------------*/
+/*--------------------INDEX----------------------*/
+/*-----------------------------------------------*/
+
+
+/*-----------------------------------------------*/
+/*-------------------HEADER----------------------*/
 /*-----------------------------------------------*/
 .beast-text-box {
     position: absolute;
@@ -148,6 +214,7 @@ section {
     height: auto;
     top: 65%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -163,6 +230,7 @@ section {
     font-size: 120%;
     padding: 10px;
     font-weight: 200;
+    -webkit-transition: .4s;
     transition: .4s;
 
 }
@@ -184,9 +252,10 @@ section {
 .main-navi ul li a:link span,
 .main-navi ul li a:visited span {
     color: rgb(221, 221, 221);
-    font-size: 70%;
+    font-size: 68%;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
+    -webkit-transition: .3s;
     transition: .3s;
     padding: 8px 0;
 }
@@ -198,20 +267,10 @@ section {
 
 }
 
-/*-----------------------------------------------*/
-/*----------------------FEATURES-----------------*/
-/*-----------------------------------------------*/
-
-.section-features {
-}
 
 /*-----------------------------------------------*/
-/*----------------------CLASSES------------------*/
+/*--------------------I-CLASSES------------------*/
 /*-----------------------------------------------*/
-
-.section-classes {
-
-}
 
 .card-title-custom {
     font-size: 110%;
@@ -248,6 +307,7 @@ section {
 }
 
 .list-of-social-icons a i {
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -313,6 +373,7 @@ section {
     padding: 5px;
     font-size: 80%;
     background-color: #e67e22;
+    -webkit-transition: .4s;
     transition: .4s;
     display: inline-block;
 }
@@ -324,13 +385,8 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------TRAINERS-----------------*/
+/*--------------------I-TRAINERS-----------------*/
 /*-----------------------------------------------*/
-
-.section-trainers {
-
-
-}
 
 .trainer-bio {
     font-weight: 300;
@@ -340,12 +396,8 @@ section {
 }
 
 /*-----------------------------------------------*/
-/*----------------------GYM AT A GLANCE----------*/
+/*--------------I-GYM AT A GLANCE----------------*/
 /*-----------------------------------------------*/
-
-.section-gym-vedio {
-
-}
 
 video {
 
@@ -354,7 +406,7 @@ video {
 }
 
 /*-----------------------------------------------*/
-/*----------------------NEWS---------------------*/
+/*--------------------I-NEWS---------------------*/
 /*-----------------------------------------------*/
 .blog-short-desc {
     font-weight: 300;
@@ -381,10 +433,8 @@ video {
 }
 
 /*-----------------------------------------------*/
-/*----------------------PLAN---------------------*/
+/*--------------------I-PLAN---------------------*/
 /*-----------------------------------------------*/
-.section-membership {
-}
 
 .mem-title {
     font-weight: 300;
@@ -429,6 +479,7 @@ video {
     padding: 8px 0;
     font-size: 100%;
     border-radius: 200px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     display: inline-block;
 }
@@ -454,6 +505,7 @@ video {
     padding: 8px 0;
     font-size: 100%;
     border-radius: 200px;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
     border: 1px solid #e67e22;
     display: inline-block;
@@ -485,10 +537,11 @@ video {
 }
 
 /*-----------------------------------------------*/
-/*----------------------FOOTER-------------------*/
+/*-------------------FOOTER----------------------*/
 /*-----------------------------------------------*/
 
 .section-footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(image/ocean-footer.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(image/ocean-footer.jpg);
     background-repeat: repeat;
     overflow: hidden;
@@ -608,6 +661,7 @@ footer {
     position: relative;
     top: -3px;
     color: #333;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -643,7 +697,7 @@ footer {
 }
 
 /*-----------------------------------------------*/
-/*----------------------ABOUT US-----------------*/
+/*-------------------ABOUT US--------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -651,6 +705,7 @@ footer {
 /*-----------------------------------------------*/
 
 .section-header-about-us {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -715,6 +770,7 @@ footer {
 /*--------------TESTIMONIALS---------------------*/
 /*-----------------------------------------------*/
 .section-testimonials {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(image/testimonials-bg-min.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/testimonials-bg-min.jpg);
     background-size: cover;
     color: #fff;
@@ -745,6 +801,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-classes {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -775,7 +832,7 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*----------------------TRAINERS-----------------*/
+/*------------------TRAINERS---------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -783,6 +840,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-trainers {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -799,6 +857,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-memberships {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -815,6 +874,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-news {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -885,6 +945,7 @@ blockquote:before {
 .box-hot-news ul li a:visited {
     text-decoration: none;
     color: #494f5c;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -916,6 +977,7 @@ blockquote:before {
     text-decoration: none;
     text-transform: uppercase;
     color: #494f5c;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -925,7 +987,7 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*----------------------GALLERY------------------*/
+/*-----------------GALLERY-----------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -933,6 +995,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-gallery {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -951,24 +1014,28 @@ blockquote:before {
 }
 
 .gallery-images div a img {
+    -webkit-transition: .3s;
     transition: .3s;
 
 }
 
 .gallery-images div a img:hover {
     opacity: 1;
+    -webkit-transform: scale(1.05);
     transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 7px rgba(0, 0, 0, .5);
     box-shadow: 0px 0px 7px rgba(0, 0, 0, .5);
 
 }
 
 .gallery-images:hover img {
     opacity: .6;
+    -webkit-transform: scale(.96);
     transform: scale(.96);
 }
 
 /*-----------------------------------------------*/
-/*---------------------SCHEDULE------------------*/
+/*------------------SCHEDULE---------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
@@ -976,6 +1043,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-schedule {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1039,6 +1107,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 .section-header-contact {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1068,6 +1137,7 @@ blockquote:before {
 
 .custom-submit-btn span {
     color: #fff;
+    -webkit-transition: .3s;
     transition: .3s;
     display: block;
     font-size: 90%;
@@ -1132,18 +1202,20 @@ blockquote:before {
     color: #fff;
     position: relative;
     top: -4px;
+    -webkit-transition: .3s;
     transition: .3s;
 }
-
-/*-----------------------------------------------*/
-/*-------------------CLASS-----------------------*/
-/*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
 /*--------------CLASS DETAILS--------------------*/
 /*-----------------------------------------------*/
 
+/*-----------------------------------------------*/
+/*-----------SECTION CLASS DETAILS---------------*/
+/*-----------------------------------------------*/
+
 .section-header-class-details {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1214,6 +1286,7 @@ blockquote:before {
 .ul-Instructor li ul li:last-child a:visited i {
     font-size: 150%;
     color: #000;
+    -webkit-transition: .3s;
     transition: .3s;
 
 }
@@ -1269,6 +1342,7 @@ blockquote:before {
     position: relative;
     top: -3px;
     color: #333;
+    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -1276,15 +1350,20 @@ blockquote:before {
     color: #f4f4f4;
 }
 
-/*-----------------------------------------------*/
-/*-------------------TRAINER---------------------*/
-/*-----------------------------------------------*/
+.th-width{
+    width:100%;
+}
 
 /*-----------------------------------------------*/
 /*--------------TRAINER DETAILS------------------*/
 /*-----------------------------------------------*/
 
+/*-----------------------------------------------*/
+/*-----------SECTION TRAINER DETAILS-------------*/
+/*-----------------------------------------------*/
+
 .section-header-trainer-details {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1344,15 +1423,16 @@ blockquote:before {
 }
 
 .ul-trainer-exp li:last-child a i {
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
 /*-----------------------------------------------*/
-/*-------------------NEWS------------------------*/
+/*--------------NEWS DETAILS---------------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
-/*--------------NEWS DETAILS---------------------*/
+/*------------SECTION NEWS DETAILS---------------*/
 /*-----------------------------------------------*/
 .box-share-news {
     background-color: #1e2123;
@@ -1394,6 +1474,7 @@ blockquote:before {
 .social-ul-share li a i {
     font-size: 200%;
     color: #e67e22;
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -1408,14 +1489,15 @@ blockquote:before {
 }
 
 /*-----------------------------------------------*/
-/*-------REGISTRATION FORM-----------------------*/
+/*-------------REGISTRATION FORM-----------------*/
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
-/*----SECTION REGISTRATION FORM------------------*/
+/*----------SECTION REGISTRATION FORM------------*/
 /*-----------------------------------------------*/
 
 .section-header-reg-form {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1437,6 +1519,7 @@ blockquote:before {
 /*-----------------SECTION SHOP------------------*/
 /*-----------------------------------------------*/
 .section-header-shop {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(image/about-us-header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/about-us-header.jpg);
     background-size: cover;
     background-position: center;
@@ -1489,6 +1572,7 @@ blockquote:before {
     background-color: #e67e22;
     padding: 10px;
     font-size: 80%;
+    -webkit-transition: .3s;
     transition: .3s;
     text-decoration: none;
 }
@@ -1507,7 +1591,7 @@ blockquote:before {
 /*-----------------------------------------------*/
 
 /*-----------------------------------------------*/
-/*---------SECTION SHOP DETAILS------------------*/
+/*-------------SECTION SHOP DETAILS--------------*/
 /*-----------------------------------------------*/
 .box-shop-details h4 {
     text-transform: uppercase;
@@ -1557,6 +1641,7 @@ blockquote:before {
     background-color: #e67e22;
     padding: 10px;
     font-size: 80%;
+    -webkit-transition: .3s;
     transition: .3s;
     color: #fff;
     text-decoration: none;
@@ -1584,6 +1669,7 @@ blockquote:before {
     background-color: #fff;
     padding: 0px;
     font-size: 80%;
+    -webkit-transition: .3s;
     transition: .3s;
     color: #000;
     text-decoration: none;
@@ -1611,6 +1697,7 @@ blockquote:before {
 }
 
 .box-share-product li a i {
+    -webkit-transition: .3s;
     transition: .3s;
 }
 
@@ -1698,6 +1785,7 @@ blockquote:before {
 .btn-rv {
     background-color: #e67e22;
     height: 50px;
+    -webkit-transition: 5s;
     transition: 5s;
 
 }
@@ -1732,6 +1820,7 @@ blockquote:before {
 .js--wp-facilities,
 .js--wp-rp {
     opacity: 0;
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
@@ -1745,5 +1834,6 @@ js--wp-facilities.animated,
 }
 
 .js--wp-dm {
+    -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
