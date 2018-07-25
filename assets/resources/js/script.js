@@ -180,7 +180,7 @@ $(document).ready(function () {
         lng: lng,
         title: 'Lima',
         infoWindow: {
-            content: '<p>BRAST CLUB</p>'
+            content: '<h6 style="color: #e67e22">BEAST CLUB</h6>'
         }
 
     });
