@@ -24,8 +24,17 @@
     }
 }
 
-/*small phone to small tablets from: 481px to 768px*/
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 801px) {
+    .beast-text-box {
+        top: 20%;
+
+    }
+}
+
+
+
+/*small phone to small tablets from: 481px to 769px*/
+@media only screen and (max-width: 769px) {
 
     .heading-h1 {
         font-size: 180%;

@@ -1023,6 +1023,7 @@ blockquote:before {
     text-align: center;
     font-weight: 500;
     color: #666;
+    padding-top: 30px;
 }
 
 .box-table tbody tr td {
@@ -1035,17 +1036,24 @@ blockquote:before {
 
 .box-time-table {
     background-color: #e67e22;
-    color: white;
     padding: 20px 5px;
 }
 
 .box-time-table span:first-child {
     display: block;
+    color: white;
 }
 
 .box-time-table span:last-child {
     display: block;
-    margin-top: 7px
+    margin-top: 7px;
+    color: white;
+}
+
+.box-table a:link,
+.box-table a:visited{
+    text-decoration: none;
+
 }
 
 /*-----------------------------------------------*/

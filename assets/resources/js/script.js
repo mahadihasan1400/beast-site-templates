@@ -31,6 +31,9 @@ $(document).ready(function () {
         $('.box-product-ai').addClass('js-display-0');
         $('.box-product-rv').addClass('js-display-0');
 
+        $('.box-product-rv').removeClass('js-display-1');
+        $('.box-product-ai').removeClass('js-display-1');
+
         $('.box-product-long-desc').removeClass('js-display-1');
 
         $('.box-product-long-desc').removeClass('js-display-0');
